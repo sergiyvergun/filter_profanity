@@ -6,13 +6,32 @@
 
 
 🌐 Supported languages:
-|          |          |          |          |          |          |
-| :------: | :------: | :------: | :------: | :------: | :------: |
-| Arabic   |  English | Hindi    |Norwegian | Russian  |Ukrainian |
-|  Chinese | Filipino |Hungarian | Oromo    | Spanish  |
-| Czech    | French   | Italian  | Persian  | Swedish  |
-| Danish   | Frisian  | Japanese | Polish   | Thai     |
-| Dutch    | German   | Korean   |Portuguese|  Turkish |
+- Arabic
+- Chinese
+- Czech
+- Danish
+- Dutch
+- English
+- Filipino
+- French
+- Frisian
+- German
+- Hindi
+- Hungarian
+- Italian
+- Japanese
+- Korean
+- Norwegian
+- Oromo
+- Persian
+- Polish
+- Portuguese
+- Russian
+- Spanish
+- Swedish
+- Thai
+- Turkish
+- Ukrainian
 
 ### Usage
 ------------
