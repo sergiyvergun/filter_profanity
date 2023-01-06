@@ -1,5 +1,4 @@
-import 'package:filter_profanity/src/filter_profanity.dart';
-import 'package:filter_profanity/src/profanity_words.dart';
+import 'package:filter_profanity/filter_profanity.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -20,7 +19,7 @@ void main() {
         'hasProfanity from offensive word of selected offensive words must be true',
         () {
       expect(
-          hasProfanity('putin', languagesOffensiveWords: englishOffensiveWords),
+          hasProfanity('putin', offensiveWordsLanguages: englishOffensiveWords),
           true);
     });
 
@@ -28,7 +27,7 @@ void main() {
         'hasProfanity from not offensive word of selected offensive words must be false',
         () {
       expect(
-          hasProfanity('putin', languagesOffensiveWords: koreanOffensiveWords),
+          hasProfanity('putin', offensiveWordsLanguages: koreanOffensiveWords),
           false);
     });
   });

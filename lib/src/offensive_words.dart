@@ -16,13 +16,14 @@ List<String> allLanguagesOffensiveWords = arabicOffensiveWords +
     oromoOffensiveWords +
     koreanOffensiveWords +
     dutchOffensiveWords +
-    norvegianOffensiveWords +
+    norwegianOffensiveWords +
     polishOffensiveWords +
     portugueseOffensiveWords +
     swedishOffensiveWords +
     thaiOffensiveWords +
     turkishOffensiveWords +
-    chineseOffensiveWords;
+    chineseOffensiveWords +
+    ukrainianOffensiveWords;
 
 List<String> arabicOffensiveWords = [
   'سكس',
@@ -2028,7 +2029,7 @@ List<String> dutchOffensiveWords = [
   'zuiplap',
 ];
 
-List<String> norvegianOffensiveWords = [
+List<String> norwegianOffensiveWords = [
   'asshole',
   'dritt',
   'drittsekk',
@@ -2751,4 +2752,65 @@ List<String> chineseOffensiveWords = [
   '你老味',
   '你老母',
   '硬膠',
+];
+
+List<String> ukrainianOffensiveWords = [
+  'Блять',
+  'Курва',
+  'cука',
+  '  єбана'
+      'пізда'
+      'дура'
+      'шлюха'
+      'шльондра'
+      'проститутка'
+      'уйобок'
+      'даун'
+      'далбайоб'
+      'долбойоб'
+      'довбойоб'
+      'давбайоб'
+      'підарас'
+      'гамноїд'
+      'гавноїд'
+      'піздолиз'
+      'сраколиз'
+      'дуполиз'
+      'жополиз'
+      'єблан'
+      'уєбан'
+      'єбланка'
+      'йобнуте'
+      'йобнутий'
+      'йобнута'
+      'єбанутий'
+      'єбанута'
+      'єбануте'
+      'москаль'
+      'кацап'
+      'сучара'
+      'сучий син'
+      'суча дочка'
+      'суча доця'
+      'суча донька'
+      'сучий синочок'
+      'син шлюхи'
+      'син шльондри'
+      'син проститутки'
+      'синок шлюхи'
+      'синок шльондри'
+      'синок проститутки'
+      'синочок шлюхи'
+      'синочок шльондри'
+      'синочок проститутки'
+      'дочка шлюхи'
+      'дочка шльондри'
+      'дочка проститутки'
+      'донька шлюхи'
+      'донька шльондри'
+      'донька проститутки'
+      'донечка шлюхи'
+      'донечка шльондри'
+      'донечка проститутки'
+      'уйобок',
 ];
