@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Provide documentation.
+
 ## 1.0.1
 
 - Check lowercase value.
