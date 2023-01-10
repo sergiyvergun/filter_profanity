@@ -19,16 +19,14 @@ void main() {
         'hasProfanity from offensive word of selected offensive words must be true',
         () {
       expect(
-          hasProfanity('putin', offensiveWordsLanguages: englishOffensiveWords),
-          true);
+          hasProfanity('putin', offensiveWords: englishOffensiveWords), true);
     });
 
     test(
         'hasProfanity from not offensive word of selected offensive words must be false',
         () {
       expect(
-          hasProfanity('putin', offensiveWordsLanguages: koreanOffensiveWords),
-          false);
+          hasProfanity('putin', offensiveWords: koreanOffensiveWords), false);
     });
   });
 }

@@ -1,32 +1,32 @@
 import 'package:filter_profanity/filter_profanity.dart';
 
-bool hasProfanity(String value, {List<String>? offensiveWordsLanguages}) {
-  List<String> offensiveWords =
-      offensiveWordsLanguages ?? allLanguagesOffensiveWords;
-  bool has = (offensiveWords
+/// Check if provided String contains offensive words
+bool hasProfanity(String value, {List<String>? offensiveWords}) {
+  List<String> _offensiveWords = offensiveWords ?? allLanguagesOffensiveWords;
+  bool has = (_offensiveWords
           .toSet()
           .intersection(value.toLowerCase().split(' ').toSet()))
       .isNotEmpty;
   if (!has) {
-    has = (offensiveWords
+    has = (_offensiveWords
             .toSet()
             .intersection(value.toLowerCase().split('\n').toSet()))
         .isNotEmpty;
   }
   if (!has) {
-    has = (offensiveWords
+    has = (_offensiveWords
             .toSet()
             .intersection(value.toLowerCase().split('&').toSet()))
         .isNotEmpty;
   }
   if (!has) {
-    has = (offensiveWords
+    has = (_offensiveWords
             .toSet()
             .intersection(value.toLowerCase().split(',').toSet()))
         .isNotEmpty;
   }
   if (!has) {
-    has = (offensiveWords
+    has = (_offensiveWords
             .toSet()
             .intersection(value.toLowerCase().split('.').toSet()))
         .isNotEmpty;

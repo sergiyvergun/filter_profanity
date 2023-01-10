@@ -1,3 +1,4 @@
+/// List of all supported languages offensive words
 List<String> allLanguagesOffensiveWords = arabicOffensiveWords +
     russianOffensiveWords +
     czechOffensiveWords +
@@ -25,6 +26,7 @@ List<String> allLanguagesOffensiveWords = arabicOffensiveWords +
     chineseOffensiveWords +
     ukrainianOffensiveWords;
 
+/// List of arabic offensive words
 List<String> arabicOffensiveWords = [
   'سكس',
   'طيز',
@@ -66,6 +68,7 @@ List<String> arabicOffensiveWords = [
   'لبوة',
 ];
 
+/// List of russian offensive words
 List<String> russianOffensiveWords = [
   'bychara',
   'byk',
@@ -132,6 +135,7 @@ List<String> russianOffensiveWords = [
   'za\'ebat',
   'zaebis',
   'zalupa',
+  'залупа',
   'zalupat',
   'zasranetc',
   'zassat',
@@ -249,6 +253,8 @@ List<String> russianOffensiveWords = [
   'хуйнуть',
   'хуй пинать',
 ];
+
+/// List of czech offensive words
 List<String> czechOffensiveWords = [
   'bordel',
   'buzna',
@@ -293,6 +299,7 @@ List<String> czechOffensiveWords = [
   'žrát',
 ];
 
+/// List of danish offensive words
 List<String> danishOffensiveWords = [
   'anus',
   'bøsserøv',
@@ -316,6 +323,7 @@ List<String> danishOffensiveWords = [
   'shit',
 ];
 
+/// List of german offensive words
 List<String> germanOffensiveWords = [
   'analritter',
   'arsch',
@@ -384,6 +392,7 @@ List<String> germanOffensiveWords = [
   'wichser',
 ];
 
+/// List of english offensive words
 List<String> englishOffensiveWords = [
   '2g1c',
   'putin',
@@ -791,6 +800,7 @@ List<String> englishOffensiveWords = [
   '🖕',
 ];
 
+/// List of spanish offensive words
 List<String> spanishOffensiveWords = [
   'asesinato',
   'asno',
@@ -861,6 +871,7 @@ List<String> spanishOffensiveWords = [
   'vete a la mierda',
 ];
 
+/// List of persian offensive words
 List<String> persianOffensiveWords = [
   'آب کیر',
   'ارگاسم',
@@ -909,6 +920,7 @@ List<String> persianOffensiveWords = [
   'هرزه',
 ];
 
+/// List of frisian offensive words
 List<String> frisianOffensiveWords = [
   'alfred nussi',
   'bylsiä',
@@ -1042,6 +1054,7 @@ List<String> frisianOffensiveWords = [
   'äpärä',
 ];
 
+/// List of filipino offensive words
 List<String> filipinoOffensiveWords = [
   'puta ka',
   'putang ina',
@@ -1058,6 +1071,8 @@ List<String> filipinoOffensiveWords = [
   'ulol',
   'jakol',
 ];
+
+/// List of french offensive words
 List<String> frenchOffensiveWords = [
   'baiser',
   'bander',
@@ -1158,6 +1173,7 @@ List<String> frenchOffensiveWords = [
   'viarge',
 ];
 
+/// List of hindi offensive words
 List<String> hindiOffensiveWords = [
   'ghuy\'cha\'',
   'qi\'yah',
@@ -1283,6 +1299,7 @@ List<String> hindiOffensiveWords = [
   'tu chuda',
 ];
 
+/// List of hungarian offensive words
 List<String> hungarianOffensiveWords = [
   'balfasz',
   'balfaszok',
@@ -1382,6 +1399,7 @@ List<String> hungarianOffensiveWords = [
   'szart',
 ];
 
+/// List of italian offensive words
 List<String> italianOffensiveWords = [
   'allupato',
   'ammucchiata',
@@ -1553,6 +1571,7 @@ List<String> italianOffensiveWords = [
   'zoccola',
 ];
 
+/// List of japanese offensive words
 List<String> japaneseOffensiveWords = [
   'g スポット',
   's ＆ m',
@@ -1720,6 +1739,7 @@ List<String> japaneseOffensiveWords = [
   '膣',
 ];
 
+/// List of oromo offensive words
 List<String> oromoOffensiveWords = [
   'abbuc',
   'aεeṭṭuḍ',
@@ -1745,6 +1765,7 @@ List<String> oromoOffensiveWords = [
   'taxna',
 ];
 
+/// List of korean offensive words
 List<String> koreanOffensiveWords = [
   '강간',
   '개새끼',
@@ -1820,6 +1841,7 @@ List<String> koreanOffensiveWords = [
   '희쭈그리',
 ];
 
+/// List of dutch offensive words
 List<String> dutchOffensiveWords = [
   'aardappels afgieten',
   'achter het raam zitten',
@@ -2013,6 +2035,7 @@ List<String> dutchOffensiveWords = [
   'zuiplap',
 ];
 
+/// List of norwegian offensive words
 List<String> norwegianOffensiveWords = [
   'asshole',
   'dritt',
@@ -2056,6 +2079,7 @@ List<String> norwegianOffensiveWords = [
   'svartheiteste',
 ];
 
+/// List of polish offensive words
 List<String> polishOffensiveWords = [
   'burdel',
   'burdelmama',
@@ -2113,6 +2137,7 @@ List<String> polishOffensiveWords = [
   'zajebisty',
 ];
 
+/// List of portuguese offensive words
 List<String> portugueseOffensiveWords = [
   'aborto',
   'amador',
@@ -2192,6 +2217,7 @@ List<String> portugueseOffensiveWords = [
   'xochota',
 ];
 
+/// List of swedish offensive words
 List<String> swedishOffensiveWords = [
   'arsle',
   'brutta',
@@ -2238,6 +2264,7 @@ List<String> swedishOffensiveWords = [
   'tusan',
 ];
 
+/// List of thai offensive words
 List<String> thaiOffensiveWords = [
   'กระดอ',
   'กระเด้า',
@@ -2272,6 +2299,7 @@ List<String> thaiOffensiveWords = [
   'ไอ้ควาย',
 ];
 
+/// List of turkish offensive words
 List<String> turkishOffensiveWords = [
   'am',
   'amcığa',
@@ -2417,6 +2445,7 @@ List<String> turkishOffensiveWords = [
   'yaraktan',
 ];
 
+/// List of chinese offensive words
 List<String> chineseOffensiveWords = [
   '13点',
   '三级片',
@@ -2738,6 +2767,7 @@ List<String> chineseOffensiveWords = [
   '硬膠',
 ];
 
+/// List of ukrainian offensive words
 List<String> ukrainianOffensiveWords = [
   'Блять',
   'Курва',
@@ -2756,8 +2786,9 @@ List<String> ukrainianOffensiveWords = [
       'давбайоб'
       'підарас'
       'гамноїд'
-      'гавноїд'
-      'піздолиз'
+      'путін',
+  'гавноїд',
+  'піздолиз'
       'сраколиз'
       'дуполиз'
       'жополиз'
