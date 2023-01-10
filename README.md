@@ -46,11 +46,11 @@ hasProfanity('Hello') // returns false
 ```
 🇬🇧 Set language
 ```dart
-hasProfanity('putin', languagesOffensiveWords: englishOffensiveWords) // returns true
+hasProfanity('putin', offensiveWords: englishOffensiveWords) // returns true
 ```
 🇺🇦 🇬🇧 Set languages
 ```dart
-hasProfanity('putin', offensiveWordsLanguages: ukrainianOffensiveWords +  englishOffensiveWords) // returns true
+hasProfanity('putin', offensiveWords: ukrainianOffensiveWords +  englishOffensiveWords) // returns true
 ```
 
 ### MIT License
