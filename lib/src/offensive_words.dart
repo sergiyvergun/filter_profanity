@@ -101,6 +101,8 @@ List<String> russianOffensiveWords = [
   'piz\`dyulina',
   'podi ku\'evo',
   'poeben',
+  'блять',
+  'бля'
   'po\'imat na konchik',
   'po\'iti posrat',
   'po khuy',
