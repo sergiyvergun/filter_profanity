@@ -1,3 +1,7 @@
+## 1.0.2+2
+
+- Add more offensive words.
+
 ## 1.0.2+1
 
 - Update README.md.
